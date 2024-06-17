@@ -1,0 +1,127 @@
+body {
+    background-color: #D7F5DC;
+}
+
+.custom-navbar {
+    max-width: 1440px;
+    background-color: #D7F5DC;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 56px;
+}
+
+p {
+    font-weight: 500;
+    font-family: "Poppins", sans-serif; 
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+}  
+
+.container {
+    max-width: 1440px;
+}
+
+.btn-c {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    background-color: #20B15A;
+}
+
+.btn-g {
+    font-size: 22px;
+    height: 80px;
+    width: 200px;
+    border-radius: 18px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    background-color: #20B15A;
+}
+
+.btn-outline-c {
+    border-color: #20B15A;
+}
+
+.btn-c:hover,
+.btn-g:hover {
+    background-color: #10ff7463; 
+}
+
+.btn-outline-c:hover {
+    color: #fff; 
+    background-color: #20B15A;
+    border-color: #20B15A;
+}
+
+.white-banner {
+    height: 138px; 
+    background-color: #fff; 
+}
+
+.color-section {
+    height: 50px; 
+    background-color: #D7F5DC ; 
+}
+
+/* Media Queries for smaller screens */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-link {
+        margin: 10px 0;
+    }
+
+    .btn-c, .btn-outline-c {
+        margin: 10px 0;
+    }
+
+    .btn-g {
+        width: 100%;
+        font-size: 18px;
+        height: 60px;
+    }
+
+    .white-banner {
+        height: 50px; 
+        background-color: #fff; 
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .navbar-brand img {
+        width: 100px;
+    }
+
+    .get-started-button {
+        text-align: center;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    .white-banner img {
+        width: 50px;
+    }
+}
